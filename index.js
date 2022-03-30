@@ -21,6 +21,6 @@ for (let i = 0; i <= 5; i++) {
 //4. iterate over the string below and print out each character
 let string = "the fox jumps over the moon"; 
 
-for (let i = 0; i <= string.length; i++) {
+for (let i = 0; i < string.length; i++) {
     console.log(string[i]);
 }
